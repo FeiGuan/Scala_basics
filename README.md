@@ -115,7 +115,7 @@ for (i <- 1 to 3; j <- -1 to 3) print ((10*i+j) + " ")
 </pre>
 guard:
 <pre>
-for (i <- 1 to 3; j <- -1 to 3 if i != j && i >= 2) print ((10*i+j) + " ")
+for (i <- 1 to 3; j <- -1 to 3 if i != j && i >= 2) print ((10*i+j)) + " ")
 	// 21 23 31 32
 </pre>
 for/yield
@@ -185,7 +185,7 @@ import scala.collection.mutable.HashMap
 val scores = new HashMap[String, Int]
 for (i <- 1 to 10)
 	scores += (i.toString -> i)
-</pre>
+</pre> 
 ###2. Operations
 get value
 <pre>
