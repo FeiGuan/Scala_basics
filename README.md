@@ -92,8 +92,6 @@ for loop
 <pre>
 val s = "Hello"
 var sum = 0
-for (i <- 1 to s.length-1)	// i from 1 to s.length-1 inclusively
-	sum += s(i)
 </pre>
 
 <pre>
